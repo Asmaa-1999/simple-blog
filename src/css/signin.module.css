@@ -1,0 +1,43 @@
+.background {
+  background-image: url("../assets/imgs/p8.avif");
+  background-size: cover;
+  background-position: 100% 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerForm {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 30%;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #aac2c4 !important;
+  color: white!important;
+}
+.line {
+  border: solid 1px white;
+  width: 44%;
+  margin: 4px;
+}
+

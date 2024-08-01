@@ -1,0 +1,19 @@
+.background {
+  background-image: url("../assets/imgs/p8.avif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+/* .font {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.0833333333;
+}
+.fontp {
+  font-size: 20px;
+  max-inline-size: 40ch;
+} */
