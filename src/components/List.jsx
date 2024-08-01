@@ -31,8 +31,7 @@ function List() {
   const [image, setImage] = useState(null);
   const [isDisabled, setIsDisabled] = useState(false);
   const refInput = useRef(null);
-  const [postLikes, setPostLikes] = useState(0);
-  const [liked, setLiked] = useState(false);
+
 
   const fetchUserData = async (userId) => {
     try {
@@ -173,7 +172,7 @@ function List() {
         list.map((post) => (
           <div
             key={post.id}
-            className="flex flex-col justify-center bg-white rounded-lg shadow-sm overflow-hidden border border-r-white mt-5 w-[100%] sm:w-[34rem]"
+            className="flex flex-col justify-center bg-white rounded-lg shadow-sm overflow-hidden border border-r-white mt-5 md:me-6 w-[100%] md:w-[27em] lg:w-[34rem]"
           >
             <div className="flex items-center justify-between p-1 px-4">
               <div className="flex">

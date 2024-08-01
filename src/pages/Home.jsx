@@ -145,9 +145,9 @@ function Home() {
         <div className="w-full md:w-[30rem]">
           <ProfileDetails />
         </div>
-        <div className="flex flex-col justify-center items-center md:block">
+        <div className="flex flex-col justify-center items-center xl::flex-row">
           <div
-            className={`flex items-center gap-2 bg-white rounded-lg shadow-sm overflow-hidden border border-r-white mt-5 w-[100%] sm:w-[34rem] p-3`}
+            className={`flex items-center gap-2 bg-white rounded-lg shadow-sm overflow-hidden border border-r-white mt-5 w-[100%] md:me-6 md:w-[27rem] lg:w-[34rem] p-3`}
           >
             <img
               alt="Tailwind CSS Navbar component"
