@@ -37,7 +37,7 @@ function Navbar({ signOut ,userDetails }) {
       <div className="navbar bg-base-100 shadow-md flex items-center justify-center">
         <div className="flex-1 ">
           <img
-            src={"src/assets/imgs/logo.jpg"}
+            src={"./logo.jpg"}
             alt="Logo"
             className="w-10 rounded-full cursor-pointer"
           />

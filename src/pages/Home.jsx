@@ -152,7 +152,9 @@ function Home() {
             <img
               alt="Tailwind CSS Navbar component"
               src={userDetails.imageUrl}
-              className="rounded-full w-[8%] "
+              // className="rounded-full w-[8%] "
+              style={{width:"40px" ,height:"40px" ,borderRadius:"50%"}}
+
             />
             <input
               type="text"

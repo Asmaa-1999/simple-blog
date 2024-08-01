@@ -38,10 +38,11 @@ function ProfileDetails() {
         <img
           alt="Tailwind CSS Navbar component"
           src={userDetails.imageUrl}
-          className="rounded-full w-[10%] md:w-[20%]"
+          // className="rounded-full w-[10%] md:w-[15%]"
+          style={{width:"70px" ,height:"70px" ,borderRadius:"50%"}}
         />
         <h2 className="font-medium">
-          {userDetails.firstName +" "+ userDetails.lastName}
+          {userDetails.firstName + " " + userDetails.lastName}
         </h2>
         <h4 className="font-thin text-[13px] pb-2">{userDetails.email}</h4>
       </div>
