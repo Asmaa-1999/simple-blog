@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <div>
       <div className="flex flex-col justify-center items-center content-center">
-        <img src="src\assets\imgs\404-.png" className="w-[100%] xl:w-[50%]  mt-[-2rem]" />
+        <img src="./404-.png" className="w-[100%] xl:w-[50%]  mt-[-2rem]" />
         {/* <button
           className={`btn text-white`}
           type="submit"
