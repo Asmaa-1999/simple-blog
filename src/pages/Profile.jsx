@@ -9,7 +9,7 @@ export default function Profile() {
         // style={{ backgroundImage: "url(src/assets/imgs/c2png.png)" }}
       >
         <img
-          src="public\construct.png"
+          src=".\construct.png"
           className="w-[90%] xl:w-[50%]  mt-[-2rem]"
         />
         <div className="block">
